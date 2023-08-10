@@ -1,0 +1,125 @@
+[
+    {
+      "_id": 1,
+      "name": "Rupchanda Soyabean Oil",
+      "unit": "5 ltr",
+      "price": 873,
+      "image":"https://i.ibb.co/y5HDxP2/rupchanda-fortified-soyabean-oil-5-ltr.webp"
+     
+    },
+    {
+        "_id": 2,
+        "name": "Ispahani Mirzapore Tea",
+        "unit": "200gm",
+         "price": 110,
+        "image":"https://i.ibb.co/jWxX0j9/ispahani-mirzapore-best-leaf-tea-200-gm.webp",
+        "privatetoken" : "c"
+      },
+      {
+        "_id": 3,
+        "name": "Coca-Cola",
+        "unit": "1.25 ltr",
+         "price": 75,
+        "image":"https://i.ibb.co/g6r2Q6Z/Coke-Classic-1334x.webp"
+        
+      },
+      {
+        "_id": 4,
+        "name": "Frutika Mango Juice",
+        "unit": "500ml",
+         "price": 50,
+        "image":"https://i.ibb.co/8mWcJkg/frutika-mango-juice-500-ml.webp"
+        
+      },
+      {
+        "_id": 5,
+        "name": "Nestlé Nescafé Coffee",
+        "unit": "50gm",
+         "price": 195,
+        "image":"https://i.ibb.co/pxYBTZ4/nestle-nescafe-classic-instant-coffee-jar-200-gm.webp"
+        
+      },
+      {
+        "_id": 6,
+        "name": "Mr.Noodles Magic Masala",
+        "unit": "496gm",
+         "price": 160,
+        "image":"https://i.ibb.co/1KyG3N7/mrnoodles-magic-masala-easy-instant-496-gm.webp"
+        
+      },
+      
+      {
+        "_id": 7,
+        "name": "Teer Whole Wheat Flour",
+        "unit": "2kg",
+         "price": 150,
+        "image":"https://i.ibb.co/x11s4d8/teer-whole-wheat-flour-atta-2-kg.webp"
+        
+      },
+      {
+        "_id": 8,
+        "name": "Daawat Heritage Basmati ",
+        "unit": "1kg",
+         "price": 474,
+        "image":"https://i.ibb.co/KbBJszz/daawat-heritage-gold-basmati-rice-1-kg.webp"
+        
+      },
+      {
+        "_id": 9,
+        "name": "Red Cow Butter Oil",
+        "unit": "200gm",
+         "price": 305,
+        "image":"https://i.ibb.co/tLnSnrp/red-cow-butter-oil-200-gm.webp"
+        
+      },
+      {
+        "_id": 10,
+        "name": "MDH Chilli Powder",
+        "unit": "100gm",
+         "price": 190,
+        "image":"https://i.ibb.co/s29Ng4R/mdh-kashmiri-chilli-powder-100-gm.webp"
+        
+      },
+      {
+        "_id": 11,
+        "name": "Nutrilife Guava Juice",
+        "unit": "160ml",
+         "price": 45,
+        "image":"https://i.ibb.co/m5YfscH/nutrilife-guava-juice-160-ml.webp"
+        
+      },
+      {
+        "_id": 12,
+        "name": "Latina Juice (Apple)",
+        "unit": "1Lr",
+         "price": 200,
+        "image":"https://i.ibb.co/rsdG4Qb/latina-100-juice-apple-1-ltr.webp"
+        
+      },
+      {
+        "_id": 13,
+        "name": "Gini Pure Mustard Oil",
+        "unit": "5ltr",
+         "price": 1445,
+        "image":"https://i.ibb.co/nmMSbmG/gini-pure-mustard-oil-5-ltr.webp"
+        
+      },
+      {
+        "_id": 14,
+        "name": "Chashi Chinigura Rice",
+        "unit": "1kg",
+         "price": 180,
+        "image":"https://i.ibb.co/XxxMyPF/chashi-aromatic-chinigura-rice-1-kg.webp"
+        
+      },
+      
+    {
+        "_id": 100 ,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6JErwln06EPMgxj0Z8zUI1gnKFcGEpLp0xWItHz7LjksERyjS0b-UldsQH4jgr4teW8",
+        "email": "Sincere@april.biz"
+      }
+
+      
+  ]

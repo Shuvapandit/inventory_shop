@@ -17,6 +17,7 @@ import img6 from '../../../assets/images/slidersimg/img6.jpg'
 const Slider = () => { 
   return (
     <>
+    
  <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -31,12 +32,12 @@ const Slider = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={img1} style={{ width: '100%', height: '500px' }} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img2} style={{ width: '100%', height: '500px' }} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img3} style={{ width: '100%', height: '500px' }} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img4} style={{ width: '100%', height: '500px' }} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img5} style={{ width: '100%', height: '500px' }} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img6} style={{ width: '100%', height: '500px' }} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={img1} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={img2} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={img3} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={img4} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={img5} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={img6} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
         
       </Swiper>
    
