@@ -1,6 +1,6 @@
 import { useState } from "react";
 const FeaturedProducts = ({ feturedproduct }) => {
-const { name, image, unit, price } = feturedproduct;
+const { name, image, unit,description, price } = feturedproduct;
 const [isModalOpen, setIsModalOpen] = useState(false);
 
 const openModal = () => {
@@ -81,15 +81,14 @@ const closeModal = () => {
                     />
                   </svg>
                 </button>
-            
               </div>
             </div>
           </div>
         </div>
       </div>
       {isModalOpen && (
-        <dialog id="my_modal_3" className="modal" open>
-          <form method="dialog" className="modal-box w-64">
+        <dialog id="my_modal_3" className="modal ml-36" open>
+          <form method="dialog" className="modal-box w-80 h-11/12">
             <button
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
               onClick={closeModal}
@@ -102,6 +101,10 @@ const closeModal = () => {
             <h2 className="text-base font-semibold">{name}</h2>
             <p className="font-bold">Price: ৳ {price}</p>
             <p className="font-bold">{unit}</p>
+            
+            <p className="">Description:{description}</p>
+           
+          
             {/* Add more content here */}
           </form>
         </dialog>

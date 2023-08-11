@@ -4,6 +4,7 @@
       "name": "Rupchanda Soyabean Oil",
       "unit": "5 ltr",
       "price": 873,
+      "description": "First Vitamin A fortified Soyabean Oil.Increases immunity.Strengthens bone & teeth.",
       "image":"https://i.ibb.co/y5HDxP2/rupchanda-fortified-soyabean-oil-5-ltr.webp"
      
     },
@@ -12,6 +13,7 @@
         "name": "Ispahani Mirzapore Tea",
         "unit": "200gm",
          "price": 110,
+         "description":"Ispahani Mirzapore Best Leaf is produced by blending the BEST tea leaves of the finest tea gardens in Bangladesh. It comes to you in the most modern packing, designed to protect its excellent aroma and taste.",
         "image":"https://i.ibb.co/jWxX0j9/ispahani-mirzapore-best-leaf-tea-200-gm.webp",
         "privatetoken" : "c"
       },
@@ -20,6 +22,7 @@
         "name": "Coca-Cola",
         "unit": "1.25 ltr",
          "price": 75,
+         "description":"Coca-Cola, an iconic American beverage brand, is renowned globally for its refreshing soft drinks. Established in the late 1800s, it offers a variety of flavors and options loved by consumers worldwide. Its classic cola, recognized by its unique taste and logo, holds a prominent place in popular culture and is enjoyed in over 200 countries.",
         "image":"https://i.ibb.co/g6r2Q6Z/Coke-Classic-1334x.webp"
         
       },
@@ -28,6 +31,7 @@
         "name": "Frutika Mango Juice",
         "unit": "500ml",
          "price": 50,
+         "description":"Frutika Mango Juice manufactured by Akij Food and Beverage Limited. Frutika made with treated water,mango pulp, refined sugar, citric acid, sodium citrate, sodium benzoate and mango flavor. Frutika Mango Juice is 100% fresh, tasty and healthy.",
         "image":"https://i.ibb.co/8mWcJkg/frutika-mango-juice-500-ml.webp"
         
       },
@@ -36,6 +40,7 @@
         "name": "Nestlé Nescafé Coffee",
         "unit": "50gm",
          "price": 195,
+         "description":"Start your day right with the first sip of NESCAFÉ Classic NESCAFÉ Classic soluble coffee is perfect for any time of the day Add a teaspoon (1.5g) of NESCAFÉ Classic and 5g Nestlé Coffeemate into 120ml hot (80°C) water. Add sugar as per your taste and stir up well to get a perfect cup of NESCAFÉ Storage Instruction: Close lid tightly after use, always use a dry spoon, store in a cool, dry and hygienic place.",
         "image":"https://i.ibb.co/pxYBTZ4/nestle-nescafe-classic-instant-coffee-jar-200-gm.webp"
         
       },
