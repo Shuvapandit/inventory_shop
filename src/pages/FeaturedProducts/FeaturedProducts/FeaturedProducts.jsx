@@ -1,6 +1,4 @@
 import { useState } from "react";
-
-
 const FeaturedProducts = ({ feturedproduct }) => {
 const { name, image, unit, price } = feturedproduct;
 const [isModalOpen, setIsModalOpen] = useState(false);
@@ -13,7 +11,7 @@ const closeModal = () => {
   setIsModalOpen(false);
 };
   return (
-    <div className="">
+    <div className="mb-12">
       <div className="card card-compact w-60 bg-base-100 shadow-xl">
         <figure>
           <img src={image} className="h-52" alt={name} />
