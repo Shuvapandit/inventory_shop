@@ -5,7 +5,10 @@ import FeaturedDisplayProducts from '../FeaturedProducts/FeaturedDipalyProducts/
 const Home = () => {
   return (
     <div className=''>
-   <Slider/> 
+      <div className=" ml-[-20px]">
+      <Slider/> 
+      </div>
+   
    <FeaturedDisplayProducts/>
    
     </div>

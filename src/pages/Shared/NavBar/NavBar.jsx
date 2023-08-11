@@ -1,16 +1,22 @@
+import { Outlet,Link } from "react-router-dom";
+
 const NavBar = () => {
   /* fixed z-10  */
   const navOptions = (
     <>
-      <li>
+     <Link to={`/`}><li>
         <a>Home</a>
-      </li>
+      </li></Link> 
+      <Link to={`/aboutus`}>
       <li>
         <a>About Us</a>
       </li>
+      </Link>
+      <Link to={`/contact`}>
       <li>
         <a>Contact Us</a>
       </li>
+      </Link>
     </>
   );
   return (
@@ -41,7 +47,7 @@ const NavBar = () => {
               {navOptions}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">E-Shop</a>
+          <a className=" normal-case text-xl">E-Shop</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
