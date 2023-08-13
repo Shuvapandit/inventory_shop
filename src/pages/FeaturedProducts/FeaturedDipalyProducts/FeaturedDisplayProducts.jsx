@@ -5,7 +5,7 @@ const FeaturedDisplayProducts = () => {
   useEffect(() => {
     fetch("inventoryiteams.json")
       .then((response) => response.json())
-      .then((data) => setFeturedproducts(data.slice(0, 12))) //use slice for i want to showing 12 iteams in featured products
+      .then((data) => setFeturedproducts(data.slice(0, 40))) //use slice for i want to showing 12 iteams in featured products
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
   return (

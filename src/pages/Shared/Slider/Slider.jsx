@@ -7,7 +7,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import  './slider.module.css'
 import img1 from '../../../assets/images/slidersimg/img1.jpg'
 import img2 from '../../../assets/images/slidersimg/img2.jpg'
 import img3 from '../../../assets/images/slidersimg/img3.jpg'

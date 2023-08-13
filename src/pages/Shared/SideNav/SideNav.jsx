@@ -1,12 +1,13 @@
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
+import { Link } from "react-router-dom";
 const SideNav = () => {
   return (
     <div className="fixed">
       <Sidebar>
         <Menu>
           <SubMenu label="Rice">
-            <MenuItem> Basmati </MenuItem>
-            <MenuItem> MiniKit </MenuItem>
+           <Link to={`/basmati`}><MenuItem> Basmati </MenuItem></Link> 
+           <Link to={`/chinigura`}><MenuItem> Chinigura </MenuItem></Link> 
           </SubMenu>
           <MenuItem> Oil </MenuItem>
           <MenuItem> Tea </MenuItem>
