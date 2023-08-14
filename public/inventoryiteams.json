@@ -1,203 +1,178 @@
 [
-    {
-      "_id": 1,
-      "name": "Rupchanda Soyabean Oil",
-      "unit": "5 ltr",
-      "price": 873,
-      "description": "First Vitamin A fortified Soyabean Oil.Increases immunity.Strengthens bone & teeth.",
-      "image":"https://i.ibb.co/y5HDxP2/rupchanda-fortified-soyabean-oil-5-ltr.webp"
-     
-    },
-    {
-        "_id": 2,
-        "name": "Ispahani Mirzapore Tea",
-        "unit": "200gm",
-         "price": 110,
-         "description":"Ispahani Mirzapore Best Leaf is produced by blending the BEST tea leaves of the finest tea gardens in Bangladesh. It comes to you in the most modern packing, designed to protect its excellent aroma and taste.",
-        "image":"https://i.ibb.co/jWxX0j9/ispahani-mirzapore-best-leaf-tea-200-gm.webp",
-        "privatetoken" : "c"
-      },
-      {
-        "_id": 3,
-        "name": "Coca-Cola",
-        "unit": "1.25 ltr",
-         "price": 75,
-         "description":"Coca-Cola, an iconic American beverage brand, is renowned globally for its refreshing soft drinks. Established in the late 1800s, it offers a variety of flavors and options loved by consumers worldwide. Its classic cola, recognized by its unique taste and logo, holds a prominent place in popular culture and is enjoyed in over 200 countries.",
-        "image":"https://i.ibb.co/g6r2Q6Z/Coke-Classic-1334x.webp"
-        
-      },
-      {
-        "_id": 4,
-        "name": "Frutika Mango Juice",
-        "unit": "500ml",
-         "price": 50,
-         "description":"Frutika Mango Juice manufactured by Akij Food and Beverage Limited. Frutika made with treated water,mango pulp, refined sugar, citric acid, sodium citrate, sodium benzoate and mango flavor. Frutika Mango Juice is 100% fresh, tasty and healthy.",
-        "image":"https://i.ibb.co/8mWcJkg/frutika-mango-juice-500-ml.webp"
-        
-      },
-      {
-        "_id": 5,
-        "name": "Nestlé Nescafé Coffee",
-        "unit": "50gm",
-         "price": 195,
-         "description":"Start your day right with the first sip of NESCAFÉ Classic NESCAFÉ Classic soluble coffee is perfect for any time of the day Add a teaspoon (1.5g) of NESCAFÉ Classic and 5g Nestlé Coffeemate into 120ml hot (80°C) water. Add sugar as per your taste and stir up well to get a perfect cup of NESCAFÉ Storage Instruction: Close lid tightly after use, always use a dry spoon, store in a cool, dry and hygienic place.",
-        "image":"https://i.ibb.co/pxYBTZ4/nestle-nescafe-classic-instant-coffee-jar-200-gm.webp"
-        
-      },
-      {
-        "_id": 6,
-        "name": "Mr.Noodles Magic Masala",
-        "description":"MAGGI offers tasty and healthy snacks option for Bangladeshi familiesFortified with Vitamin A, Iron and Iodine.The tastemaker is comprised of known ingredients typically found in Bangladeshi households, such as turmeric, pepper, coriander, ginger and cardamom.To boost the goodness in your bowl, add colourful vegetables and lean protein such as chicken.Contains noodle cake & Tastemaker inside for a quick 2-minute preparation",
-        "unit": "496gm",
-         "price": 160,
-        "image":"https://i.ibb.co/1KyG3N7/mrnoodles-magic-masala-easy-instant-496-gm.webp"
-        
-      },
-      
-      {
-        "_id": 7,
-        "name": "Teer Whole Wheat Flour",
-        "description":"Teer Whole Wheat Atta is milled from selected high protein wheat from America, Australia, and Russia using top-notch Swiss technologies from Buhler. TEER Atta results from attention to detail, consistency in milling, and a desire to ensure the very best baking experience possible, every time.",
-        "unit": "2kg",
-         "price": 150,
-        "image":"https://i.ibb.co/x11s4d8/teer-whole-wheat-flour-atta-2-kg.webp"
-        
-      },
-      {
-        "_id": 8,
-        "name": "Daawat Heritage Basmati ",
-        "description":"A unique preparation of quality Basmati Rice/Chal with heavenly aroma sweet flavor & Delicious taste of Bangladesh.",
-        "unit": "1kg",
-         "price": 474,
-        "image":"https://i.ibb.co/KbBJszz/daawat-heritage-gold-basmati-rice-1-kg.webp"
-        
-      },
-      {
-        "_id": 9,
-        "name": "Red Cow Butter Oil",
-        "description":"Red Cow Butter Oil made from pure cow's milk. It contains energy, protein, carbohydrate and fat New Zealand Dairy Product BD Ltd.",
-        "unit": "200gm",
-         "price": 305,
-        "image":"https://i.ibb.co/tLnSnrp/red-cow-butter-oil-200-gm.webp"
-        
-      },
-      {
-        "_id": 10,
-        "name": "MDH Chilli Powder",
-        "description":"MDH Powder - Kashmiri chilli imparts a rich flavor and color to dishes, mainly tandoori and other marinades. It has a great red color and a little sweet flavor. When used in curry, it imparts bright red color making food more good-looking and pleasant.",
-        "unit": "100gm",
-         "price": 190,
-        "image":"https://i.ibb.co/s29Ng4R/mdh-kashmiri-chilli-powder-100-gm.webp"
-        
-      },
-      {
-        "_id": 11,
-        "name": "Nutrilife Guava Juice",
-        "description":"Nutrilife Guavas are an excellent source of dietary fiber, antioxidants, Vitamin C and other minerals like potassium. According to researchers, a single guava consists Vitamin C about 4 times more than a single orange",
-        "unit": "160ml",
-         "price": 45,
-        "image":"https://i.ibb.co/m5YfscH/nutrilife-guava-juice-160-ml.webp"
-        
-      },
-      {
-        "_id": 12,
-        "name": "Latina Juice (Apple)",
-        "description":"NutriLife Apple Juice brings you the highest quality and taste of real Apple . It is full of nutrition and supports good health.",
-        "unit": "1Lr",
-         "price": 200,
-        "image":"https://i.ibb.co/rsdG4Qb/latina-100-juice-apple-1-ltr.webp"
-        
-      },
-      {
-        "_id": 13,
-        "name": "Gini Pure Mustard Oil",
-        "description": "1. Manufactured by finest grade of indegenous mustard seed and filtered by moder machine. 2. Country natural groove, taste and color found in every drops. 3. Natural properties and essential nutritious elements are retained in the oil. 4. Security sealed cap ensuring product quality & quantity. 5. BSTI certified.",
-        "unit": "5ltr",
-         "price": 1445,
-        "image":"https://i.ibb.co/nmMSbmG/gini-pure-mustard-oil-5-ltr.webp"
-        
-      },
-      {
-        "_id": 14,
-        "name": "Chashi Chinigura Rice",
-        "description":"Chashi Aromatic Chinigura Rice is hygienically processed and polished by automated machines from specifically selected premium quality white rice using modern technology which provides you with the best quality rice. Its natural aroma adds a unique taste and flavor to biryani, pulao, khichuri, desserts, etc.",
-        "unit": "1kg",
-         "price": 180,
-        "image":"https://i.ibb.co/XxxMyPF/chashi-aromatic-chinigura-rice-1-kg.webp"
-        
-      },
-      {
-        "_id": 15,
-        "name": "Pran Metro Basmati Rice",
-        "description":"Metro Basmati Rice offer finest Basmati rice with naural aroma and long grain",
-        "unit": "1kg",
-         "price": 400,
-        "image":"https://i.ibb.co/Xk615x4/pran-metro-basmati-rice-1-kg.webp"
-        
-      },
-      {
-        "_id": 16,
-        "name": "Sprite",
-        "description":"Crisp, refreshing and clean-tasting, Sprite is the world’s leading lemon and lime-flavoured soft drink.Ingredients: Carbonated Water, Sugar, Citric Acid, Malic Acid, Acidity Regulator (Sodium Gluconate), Natural Lemon-Lime Flavourings, Sweetener (Steviol Glycosides).",
-        "unit": "600ml",
-         "price": 60,
-        "image":"https://i.ibb.co/YdyLgGf/sprite-600-ml-1.webp"
-        
-      },
-      {
-        "_id": 17,
-        "name": "Royal India Basmati Rice",
-        "description":"Crisp, refreshing and clean-tasting, Sprite is the world’s leading lemon and lime-flavoured soft drink.Ingredients: Carbonated Water, Sugar, Citric Acid, Malic Acid, Acidity Regulator (Sodium Gluconate), Natural Lemon-Lime Flavourings, Sweetener (Steviol Glycosides).",
-        "unit": "1kg",
-         "price": 1800,
-        "image":"https://i.ibb.co/RNB1mTw/basmati.webp"
-        
-      },
-      {
-        "_id": 18,
-        "name": "Nestle Gold Instant Coffee ",
-        "description":"Enjoy the moment and savour the distinctive taste of NESCAFÉ GOLD BLEND.Finest blends crafted by experts, to make your coffee moments special Made with a perfect blend of Arabica and Robusta coffee beans for a rich and smooth taste Add a teaspoon (1.5g) of NESCAFÉ GOLD into 120ml hot (80°C) water. Add milk & sugar as per your taste and stir up well to get a perfect cup of NESCAFÉ Storage Instruction: Close lid tightly after use, always use a dry spoon, store in a cool, dry and hygienic place.",
-        "unit": "100gm",
-         "price": 750,
-        "image":"https://i.ibb.co/gtLfvWm/nestle-nescafe-gold-instant-coffee-jar-100-gm.webp"
-        
-      },
-     
-      {
-        "_id": 19,
-        "name": "Pran Chinigura Rice",
-        "description":"Pran Chinigura Aromatic Rice (Polau). Fresh and Clean, Vacuum Packed. Pran Chinigura Rice can be use in Biriyani, Polau, Firni, Kheer, Khichuri.",
-        "unit": "2kg",
-         "price": 350,
-        "image":"https://i.ibb.co/dmVV56W/pran.webp"
-        
-      },
-      {
-        "_id": 20,
-        "name": "Cocola Noodles ",
-        "description":"Manufacturer: Cocola food products Ltd. Protein, calcium, iodine and vitamin enriched egg noodles. Masala: Iodized salt, tasting salt, corn starch, chicken powder, sugar, egg powder, chili powder, tapioca starch, citric acid.",
-        "unit": "6 Pcs",
-         "price": 145,
-        "image":"https://i.ibb.co/LYRjWxm/cocolaegg.webp"
-        
-      },
-      {
-        "_id": 21,
-        "name": "Pepsi Diet ",
-        "description":"Great taste, crisp and refreshing. Zero calories. 1L / 33oz - Great for sharing with friends or when you want to save some for later!",
-        "unit": "1L",
-         "price": 70,
-        "image":"https://i.ibb.co/SRNsdF0/pepsi-diet-1-ltr.webp"
-        
-      },
-      
-    {
-        "_id": 100 ,
-        "name": "Leanne Graham",
-        "username": "Bret",
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6JErwln06EPMgxj0Z8zUI1gnKFcGEpLp0xWItHz7LjksERyjS0b-UldsQH4jgr4teW8",
-        "email": "Sincere@april.biz"
-      }
-
-      
-  ]
+  {
+    "_id": 1,
+    "name": "Rupchanda Soyabean Oil",
+    "unit": "5 ltr",
+    "price": 873,
+    "description": "First Vitamin A fortified Soyabean Oil.Increases immunity.Strengthens bone & teeth.",
+    "image": "https://i.ibb.co/y5HDxP2/rupchanda-fortified-soyabean-oil-5-ltr.webp"
+  },
+  {
+    "_id": 2,
+    "name": "Ispahani Mirzapore Tea",
+    "unit": "200gm",
+    "price": 110,
+    "description": "Ispahani Mirzapore Best Leaf is produced by blending the BEST tea leaves of the finest tea gardens in Bangladesh. It comes to you in the most modern packing, designed to protect its excellent aroma and taste.",
+    "image": "https://i.ibb.co/jWxX0j9/ispahani-mirzapore-best-leaf-tea-200-gm.webp",
+    "privatetoken": "c"
+  },
+  {
+    "_id": 3,
+    "name": "Coca-Cola",
+    "unit": "1.25 ltr",
+    "price": 75,
+    "description": "Coca-Cola, an iconic American beverage brand, is renowned globally for its refreshing soft drinks. Established in the late 1800s, it offers a variety of flavors and options loved by consumers worldwide. Its classic cola, recognized by its unique taste and logo, holds a prominent place in popular culture and is enjoyed in over 200 countries.",
+    "image": "https://i.ibb.co/g6r2Q6Z/Coke-Classic-1334x.webp"
+  },
+  {
+    "_id": 4,
+    "name": "Frutika Mango Juice",
+    "unit": "500ml",
+    "price": 50,
+    "description": "Frutika Mango Juice manufactured by Akij Food and Beverage Limited. Frutika made with treated water,mango pulp, refined sugar, citric acid, sodium citrate, sodium benzoate and mango flavor. Frutika Mango Juice is 100% fresh, tasty and healthy.",
+    "image": "https://i.ibb.co/8mWcJkg/frutika-mango-juice-500-ml.webp"
+  },
+  {
+    "_id": 5,
+    "name": "Nestlé Nescafé Coffee",
+    "unit": "50gm",
+    "price": 195,
+    "description": "Start your day right with the first sip of NESCAFÉ Classic NESCAFÉ Classic soluble coffee is perfect for any time of the day Add a teaspoon (1.5g) of NESCAFÉ Classic and 5g Nestlé Coffeemate into 120ml hot (80°C) water. Add sugar as per your taste and stir up well to get a perfect cup of NESCAFÉ Storage Instruction: Close lid tightly after use, always use a dry spoon, store in a cool, dry and hygienic place.",
+    "image": "https://i.ibb.co/pxYBTZ4/nestle-nescafe-classic-instant-coffee-jar-200-gm.webp"
+  },
+  {
+    "_id": 6,
+    "name": "Mr.Noodles Magic Masala",
+    "description": "MAGGI offers tasty and healthy snacks option for Bangladeshi familiesFortified with Vitamin A, Iron and Iodine.The tastemaker is comprised of known ingredients typically found in Bangladeshi households, such as turmeric, pepper, coriander, ginger and cardamom.To boost the goodness in your bowl, add colourful vegetables and lean protein such as chicken.Contains noodle cake & Tastemaker inside for a quick 2-minute preparation",
+    "unit": "496gm",
+    "price": 160,
+    "image": "https://i.ibb.co/1KyG3N7/mrnoodles-magic-masala-easy-instant-496-gm.webp"
+  },
+  {
+    "_id": 7,
+    "name": "Teer Whole Wheat Flour",
+    "description": "Teer Whole Wheat Atta is milled from selected high protein wheat from America, Australia, and Russia using top-notch Swiss technologies from Buhler. TEER Atta results from attention to detail, consistency in milling, and a desire to ensure the very best baking experience possible, every time.",
+    "unit": "2kg",
+    "price": 150,
+    "image": "https://i.ibb.co/x11s4d8/teer-whole-wheat-flour-atta-2-kg.webp"
+  },
+  {
+    "_id": 8,
+    "name": "Daawat Heritage Basmati ",
+    "description": "A unique preparation of quality Basmati Rice/Chal with heavenly aroma sweet flavor & Delicious taste of Bangladesh.",
+    "unit": "1kg",
+    "price": 474,
+    "image": "https://i.ibb.co/KbBJszz/daawat-heritage-gold-basmati-rice-1-kg.webp"
+  },
+  {
+    "_id": 9,
+    "name": "Red Cow Butter Oil",
+    "description": "Red Cow Butter Oil made from pure cow's milk. It contains energy, protein, carbohydrate and fat New Zealand Dairy Product BD Ltd.",
+    "unit": "200gm",
+    "price": 305,
+    "image": "https://i.ibb.co/tLnSnrp/red-cow-butter-oil-200-gm.webp"
+  },
+  {
+    "_id": 10,
+    "name": "MDH Chilli Powder",
+    "description": "MDH Powder - Kashmiri chilli imparts a rich flavor and color to dishes, mainly tandoori and other marinades. It has a great red color and a little sweet flavor. When used in curry, it imparts bright red color making food more good-looking and pleasant.",
+    "unit": "100gm",
+    "price": 190,
+    "image": "https://i.ibb.co/s29Ng4R/mdh-kashmiri-chilli-powder-100-gm.webp"
+  },
+  {
+    "_id": 11,
+    "name": "Nutrilife Guava Juice",
+    "description": "Nutrilife Guavas are an excellent source of dietary fiber, antioxidants, Vitamin C and other minerals like potassium. According to researchers, a single guava consists Vitamin C about 4 times more than a single orange",
+    "unit": "160ml",
+    "price": 45,
+    "image": "https://i.ibb.co/m5YfscH/nutrilife-guava-juice-160-ml.webp"
+  },
+  {
+    "_id": 12,
+    "name": "Latina Juice (Apple)",
+    "description": "NutriLife Apple Juice brings you the highest quality and taste of real Apple . It is full of nutrition and supports good health.",
+    "unit": "1Lr",
+    "price": 200,
+    "image": "https://i.ibb.co/rsdG4Qb/latina-100-juice-apple-1-ltr.webp"
+  },
+  {
+    "_id": 13,
+    "name": "Gini Pure Mustard Oil",
+    "description": "1. Manufactured by finest grade of indegenous mustard seed and filtered by moder machine. 2. Country natural groove, taste and color found in every drops. 3. Natural properties and essential nutritious elements are retained in the oil. 4. Security sealed cap ensuring product quality & quantity. 5. BSTI certified.",
+    "unit": "5ltr",
+    "price": 1445,
+    "image": "https://i.ibb.co/nmMSbmG/gini-pure-mustard-oil-5-ltr.webp"
+  },
+  {
+    "_id": 14,
+    "name": "Chashi Chinigura Rice",
+    "description": "Chashi Aromatic Chinigura Rice is hygienically processed and polished by automated machines from specifically selected premium quality white rice using modern technology which provides you with the best quality rice. Its natural aroma adds a unique taste and flavor to biryani, pulao, khichuri, desserts, etc.",
+    "unit": "1kg",
+    "price": 180,
+    "image": "https://i.ibb.co/XxxMyPF/chashi-aromatic-chinigura-rice-1-kg.webp"
+  },
+  {
+    "_id": 15,
+    "name": "Pran Metro Basmati Rice",
+    "description": "Metro Basmati Rice offer finest Basmati rice with naural aroma and long grain",
+    "unit": "1kg",
+    "price": 400,
+    "image": "https://i.ibb.co/Xk615x4/pran-metro-basmati-rice-1-kg.webp"
+  },
+  {
+    "_id": 16,
+    "name": "Sprite",
+    "description": "Crisp, refreshing and clean-tasting, Sprite is the world’s leading lemon and lime-flavoured soft drink.Ingredients: Carbonated Water, Sugar, Citric Acid, Malic Acid, Acidity Regulator (Sodium Gluconate), Natural Lemon-Lime Flavourings, Sweetener (Steviol Glycosides).",
+    "unit": "600ml",
+    "price": 60,
+    "image": "https://i.ibb.co/YdyLgGf/sprite-600-ml-1.webp"
+  },
+  {
+    "_id": 17,
+    "name": "Royal India Basmati Rice",
+    "description": "Crisp, refreshing and clean-tasting, Sprite is the world’s leading lemon and lime-flavoured soft drink.Ingredients: Carbonated Water, Sugar, Citric Acid, Malic Acid, Acidity Regulator (Sodium Gluconate), Natural Lemon-Lime Flavourings, Sweetener (Steviol Glycosides).",
+    "unit": "1kg",
+    "price": 1800,
+    "image": "https://i.ibb.co/RNB1mTw/basmati.webp"
+  },
+  {
+    "_id": 18,
+    "name": "Nestle Gold Instant Coffee ",
+    "description": "Enjoy the moment and savour the distinctive taste of NESCAFÉ GOLD BLEND.Finest blends crafted by experts, to make your coffee moments special Made with a perfect blend of Arabica and Robusta coffee beans for a rich and smooth taste Add a teaspoon (1.5g) of NESCAFÉ GOLD into 120ml hot (80°C) water. Add milk & sugar as per your taste and stir up well to get a perfect cup of NESCAFÉ Storage Instruction: Close lid tightly after use, always use a dry spoon, store in a cool, dry and hygienic place.",
+    "unit": "100gm",
+    "price": 750,
+    "image": "https://i.ibb.co/gtLfvWm/nestle-nescafe-gold-instant-coffee-jar-100-gm.webp"
+  },
+  {
+    "_id": 19,
+    "name": "Pran Chinigura Rice",
+    "description": "Pran Chinigura Aromatic Rice (Polau). Fresh and Clean, Vacuum Packed. Pran Chinigura Rice can be use in Biriyani, Polau, Firni, Kheer, Khichuri.",
+    "unit": "2kg",
+    "price": 350,
+    "image": "https://i.ibb.co/dmVV56W/pran.webp"
+  },
+  {
+    "_id": 20,
+    "name": "Cocola Noodles ",
+    "description": "Manufacturer: Cocola food products Ltd. Protein, calcium, iodine and vitamin enriched egg noodles. Masala: Iodized salt, tasting salt, corn starch, chicken powder, sugar, egg powder, chili powder, tapioca starch, citric acid.",
+    "unit": "6 Pcs",
+    "price": 145,
+    "image": "https://i.ibb.co/LYRjWxm/cocolaegg.webp"
+  },
+  {
+    "_id": 21,
+    "name": "Pepsi Diet ",
+    "description": "Great taste, crisp and refreshing. Zero calories. 1L / 33oz - Great for sharing with friends or when you want to save some for later!",
+    "unit": "1L",
+    "price": 70,
+    "image": "https://i.ibb.co/SRNsdF0/pepsi-diet-1-ltr.webp"
+  },
+  {
+    "_id": 100,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6JErwln06EPMgxj0Z8zUI1gnKFcGEpLp0xWItHz7LjksERyjS0b-UldsQH4jgr4teW8",
+    "email": "Sincere@april.biz"
+  }
+]

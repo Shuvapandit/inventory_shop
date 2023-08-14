@@ -1,17 +1,15 @@
-import React from 'react'
-import Slider from '../Shared/Slider/Slider'
-import FeaturedDisplayProducts from '../FeaturedProducts/FeaturedDipalyProducts/FeaturedDisplayProducts'
+import React from "react";
+import Slider from "../Shared/Slider/Slider";
+import FeaturedDisplayProducts from "../FeaturedProducts/FeaturedDipalyProducts/FeaturedDisplayProducts";
 const Home = () => {
   return (
-    <div className=''>
+    <div className="">
       <div className=" ml-[-20px]">
-      <Slider/> 
+        <Slider />
       </div>
-   
-   <FeaturedDisplayProducts/>
-   
+      <FeaturedDisplayProducts />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

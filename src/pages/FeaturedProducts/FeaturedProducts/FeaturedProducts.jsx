@@ -1,15 +1,16 @@
 import { useState } from "react";
+import { useShoppingBag } from "../../Shared/ShoppingBagContext/ShoppingBagContext";
 const FeaturedProducts = ({ feturedproduct }) => {
-const { name, image, unit,description, price } = feturedproduct;
-const [isModalOpen, setIsModalOpen] = useState(false);
+  const { name, image, unit, description, price, _id } = feturedproduct;
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-const openModal = () => {
-  setIsModalOpen(true);
-};
-
-const closeModal = () => {
-  setIsModalOpen(false);
-};
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+  const { addToBag } = useShoppingBag();
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   return (
     <div className="mb-12">
       <div className="card card-compact w-60 bg-base-100 shadow-xl">
@@ -24,7 +25,7 @@ const closeModal = () => {
           <div className="card-actions justify-center">
             <div className="flex flex-row gap-12 ">
               <div>
-                <button className="">
+                <button onClick={() => addToBag(_id)}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -65,7 +66,7 @@ const closeModal = () => {
                 </button>
               </div>
               <div>
-                <button className="" >
+                <button className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -101,11 +102,11 @@ const closeModal = () => {
             <h2 className="text-base font-semibold">{name}</h2>
             <p className="font-bold">Price: ৳ {price}</p>
             <p className="font-bold">{unit}</p>
-            
-            <p className=""><strong>Description:</strong>{description}</p>
-           
-          
-            {/* Add more content here */}
+
+            <p className="">
+              <strong>Description:</strong>
+              {description}
+            </p>
           </form>
         </dialog>
       )}
