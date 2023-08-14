@@ -1,8 +1,17 @@
-# React + Vite
+# E-Shop Inventory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live link of our Project: 
 
-Currently, two official plugins are available:
+# About our Project
+## Project Features and Functionality.
+## Project Features
+* This is a  Inventory Shop clientside Website.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project  Functionalites.
+* We use React as a Library .
+* We use Tailwind and daisy Ui as a css framework for Design our website.
+* we use inventoryiteams.json as our backend dummy data.
+* We use swiper js for dynamic banner .
+*We create Context api for addtobag iteams.
+*we use react-sidebar .
+
