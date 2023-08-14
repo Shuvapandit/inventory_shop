@@ -12,6 +12,6 @@
 * We use Tailwind and daisy Ui as a css framework for Design our website.
 * we use inventoryiteams.json as our backend dummy data.
 * We use swiper js for dynamic banner .
-*We create Context api for addtobag iteams.
-*we use react-sidebar .
+* We create Context api for addtobag iteams.
+* we use react-sidebar .
 

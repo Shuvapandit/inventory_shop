@@ -5,6 +5,7 @@ import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import Basmati from "../pages/Sidebarproducts/Rice/Basmati/Basmati";
 import Chinigura from "../pages/Sidebarproducts/Rice/Chinigura/Chinigura";
+import Oil from "../pages/Sidebarproducts/Oil/Oil";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: "/Chinigura",
         element: <Chinigura></Chinigura>,
+      },
+      {
+        path: "/oil",
+        element: <Oil></Oil>,
       },
     ],
   },

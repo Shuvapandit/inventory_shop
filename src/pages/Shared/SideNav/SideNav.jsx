@@ -9,7 +9,7 @@ const SideNav = () => {
            <Link to={`/basmati`}><MenuItem> Basmati </MenuItem></Link> 
            <Link to={`/chinigura`}><MenuItem> Chinigura </MenuItem></Link> 
           </SubMenu>
-          <MenuItem> Oil </MenuItem>
+          <Link to={`/oil`}><MenuItem> Oil </MenuItem></Link> 
           <MenuItem> Tea </MenuItem>
           <MenuItem> Soft Drinks </MenuItem>
           <MenuItem> Juice </MenuItem>

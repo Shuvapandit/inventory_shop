@@ -5,7 +5,7 @@ const FeaturedDisplayProducts = () => {
   useEffect(() => {
     fetch("inventoryiteams.json")
       .then((response) => response.json())
-      .then((data) => setFeturedproducts(data.slice(0, 15))) //use slice for i want to showing 12 iteams in featured products
+      .then((data) => setFeturedproducts(data.slice(0, 12))) //use slice for i want to showing 12 iteams in featured products
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
   return (
@@ -14,10 +14,11 @@ const FeaturedDisplayProducts = () => {
       <div className="grid grid-cols-4  gap-y-3 gap-x-2 ">
         {Feturedproducts.map((feturedproduct) => (
           <FeaturedProducts
-            key={feturedproduct.id}
+            key={feturedproduct._id}
             feturedproduct={feturedproduct}
           ></FeaturedProducts>
-        ))}
+        ))} 
+       
       </div>
     </div>
   );

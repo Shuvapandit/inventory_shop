@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useShoppingBag } from "../../../Shared/ShoppingBagContext/ShoppingBagContext";
 const Chinigura = () => {
   const [products, setProducts] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -25,6 +26,7 @@ const Chinigura = () => {
   const closeModal = () => {
     setIsModalOpen(false);
   };
+  const { addToBag } = useShoppingBag();
   return (
     <div className="mb-12">
       <div className=" ml-[-20px]">
@@ -47,7 +49,7 @@ const Chinigura = () => {
               <div className="card-actions justify-center">
                 <div className="flex flex-row gap-12">
                   <div>
-                    <button className="">
+                    <button className=""  onClick={() => addToBag(product._id)}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
