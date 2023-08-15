@@ -8,6 +8,11 @@ import Chinigura from "../pages/Sidebarproducts/Rice/Chinigura/Chinigura";
 import Oil from "../pages/Sidebarproducts/Oil/Oil";
 import Tea from "../pages/Sidebarproducts/Tea/Tea";
 import Softdrinks from "../pages/Sidebarproducts/Softdrinks/Softdrinks";
+import Juice from "../pages/Sidebarproducts/Juice/Juice";
+import Coffee from "../pages/Sidebarproducts/Coffee/Coffee";
+import Flour from "../pages/Sidebarproducts/Flour/Flour";
+import Noodles from "../pages/Sidebarproducts/Noodles/Noodles";
+import ToastandBakeryBiscuits from "../pages/Sidebarproducts/Toastandbakerybiscuits/ToastandBakeryBiscuits";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -44,6 +49,26 @@ export const router = createBrowserRouter([
       {
         path: "/softdrinks",
         element: <Softdrinks></Softdrinks>,
+      },
+      {
+        path: "/juice",
+        element: <Juice></Juice>,
+      },
+      {
+        path: "/coffee",
+        element: <Coffee></Coffee>,
+      },
+      {
+        path: "/flour",
+        element: <Flour></Flour>,
+      },
+      {
+        path: "/noodles",
+        element: <Noodles></Noodles>,
+      },
+      {
+        path: "/toastandBakeryBiscuits",
+        element: <ToastandBakeryBiscuits></ToastandBakeryBiscuits>,
       },
     ],
   },

@@ -178,6 +178,46 @@
     "image": "https://i.ibb.co/Qd6Fm9S/seylon-gold-tea-500-gm.webp"
   },
   {
+    "_id": 23,
+    "name": "Fortune Fresh Flour",
+    "description": "Whole wheat atta contains important nutrients such as protein and minerals and is also high in dietary fibre which is good for digestion.",
+    "unit": "1 Kg",
+    "price": 100,
+    "image": "https://i.ibb.co/9HmNMg4/51-QBn3-Icwm-L.jpg"
+  },
+  {
+    "_id": 24,
+    "name": "Maggi Instant Noodles",
+    "description": "MAGGI offers tasty and healthy snacks option for Bangladeshi families Fortified with Vitamin A, Iron and Iodine. The tastemaker is comprised of known ingredients typically found in Bangladeshi households, such as turmeric, pepper, coriander, ginger and cardamom.To boost the goodness in your bowl, add colourful vegetables and lean protein such as chicken. Contains noodle cake & Tastemaker inside for a quick 2-minute preparation",
+    "unit": "4 pack",
+    "price": 95,
+    "image": "https://i.ibb.co/yh1CXTH/nestle-maggi-2-minute-masala-instant-noodles-4-pack.webp"
+  },
+  {
+    "_id": 25,
+    "name": "Pran Toast Biscuit",
+    "description": "PRAN toasts come in a range of crispy and tasty crackers, cream and toast, especially consumed with tea. The biscuits are produced in different shapes and sizes and can be found at local stores around the world.",
+    "unit": "250 gm",
+    "price": 60,
+    "image": "https://i.ibb.co/SKbFhdR/pran-special-toast-biscuit-250-gm-1.webp"
+  },
+  {
+    "_id": 26,
+    "name": "Olympic DryCake Biscuit",
+    "description": "Olympic dry cake biscuits are perfect with tea, milk, or coffee. Delicious & crips sweet biscuit. Made from the finest quality ingredients.",
+    "unit": "290 gm",
+    "price": 150,
+    "image": "https://i.ibb.co/n0Knj7L/olympic-dry-cake-biscuit-290-gm.webp"
+  },
+  {
+    "_id": 27,
+    "name": "Olympic Toast Biscuit",
+    "description": "Wheat flour, sugar, inverted sugar, liquid glucose, edible vegetable oils, and fats, permitted emulsifier (E-322), milk and milk products, salt, antioxidants(E-319), leavening agent, and food-grade flavor.",
+    "unit": "185 gm ",
+    "price": 50,
+    "image": "https://i.ibb.co/t8bWHn8/olympic-premium-toast-biscuit-185-gm.webp"
+  },
+  {
     "_id": 100,
     "name": "Leanne Graham",
     "username": "Bret",

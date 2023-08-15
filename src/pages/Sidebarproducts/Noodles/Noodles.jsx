@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useShoppingBag } from "../../Shared/ShoppingBagContext/ShoppingBagContext";
-const Softdrinks = () => {
+
+const Noodles = () => {
   const [products, setProducts] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,8 +17,8 @@ const Softdrinks = () => {
     };
     fetchData();
   }, []);
-  const softdrinks = products.filter((product) =>
-    product.name.toLowerCase().includes("beverage")
+  const noodles = products.filter((product) =>
+    product.name.toLowerCase().includes("noodles")
   );
   const openModal = (product) => {
     setSelectedProduct(product);
@@ -32,13 +33,13 @@ const Softdrinks = () => {
       <div className="mb-12">
         <div className=" ml-[-20px]">
           <img
-            src="https://i.ibb.co/6DSpxG3/Coca-Cola.jpg"
+            src="https://i.ibb.co/yhQ64Zy/mgi.jpg"
             className="w-full h-56"
           />
         </div>
-        <h2 className="text-lg mt-3 mb-5 font-semibold "> Soft Drinks </h2>
-        <div className="grid grid-cols-3 gap-4">
-          {softdrinks.map((product) => (
+        <h2 className="text-lg mt-3 mb-5 font-semibold  "> Noodles </h2>
+        <div className="grid grid-cols-3 gap-4 mr-4">
+          {noodles.map((product) => (
             <div
               key={product._id}
               className="card card-compact bg-base-100 shadow-xl"
@@ -142,7 +143,6 @@ const Softdrinks = () => {
               <p className="font-bold">Price: ৳ {selectedProduct.price}</p>
               <p className="font-bold">{selectedProduct.unit}</p>
               <p className="">Description: {selectedProduct.description}</p>
-              {/* Add more content here */}
             </form>
           </dialog>
         )}
@@ -150,4 +150,4 @@ const Softdrinks = () => {
     </div>
   );
 };
-export default Softdrinks;
+export default Noodles;

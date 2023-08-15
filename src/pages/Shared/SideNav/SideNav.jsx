@@ -12,11 +12,14 @@ const SideNav = () => {
           <Link to={`/oil`}><MenuItem> Oil </MenuItem></Link> 
           <Link to={`/tea`}><MenuItem> Tea </MenuItem></Link> 
           <Link to={`/softdrinks`}><MenuItem> Soft Drinks </MenuItem></Link> 
-          <MenuItem> Juice </MenuItem>
-          <MenuItem> Coffee </MenuItem>
-          <MenuItem> Flour </MenuItem>
-          <MenuItem> Noodles </MenuItem>
-          <MenuItem> Toast & Bakery Biscuits </MenuItem>
+          <Link to={`/juice`}><MenuItem> Juice </MenuItem></Link> 
+          <Link to={`/coffee`}><MenuItem> Coffee </MenuItem></Link> 
+          <Link to={`/flour`}><MenuItem> Flour </MenuItem></Link> 
+          <Link to={`/noodles`}><MenuItem> Noodles </MenuItem></Link> 
+          <Link to={`/toastandBakeryBiscuits`}><MenuItem> Toast & Bakery Biscuits  </MenuItem></Link> 
+         
+          
+
           <SubMenu label="Meat">
             <MenuItem> Mutton </MenuItem>
             <MenuItem> Chicken </MenuItem>
