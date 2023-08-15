@@ -20,7 +20,6 @@
     "_id": 3,
     "name": "Coca-Cola(Beverage)",
     "unit": "1.25 ltr",
-    
     "price": 75,
     "description": "Coca-Cola, an iconic American beverage brand, is renowned globally for its refreshing soft drinks. Established in the late 1800s, it offers a variety of flavors and options loved by consumers worldwide. Its classic cola, recognized by its unique taste and logo, holds a prominent place in popular culture and is enjoyed in over 200 countries.",
     "image": "https://i.ibb.co/g6r2Q6Z/Coke-Classic-1334x.webp"
@@ -218,10 +217,67 @@
     "image": "https://i.ibb.co/t8bWHn8/olympic-premium-toast-biscuit-185-gm.webp"
   },
   {
-    "_id": 100,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6JErwln06EPMgxj0Z8zUI1gnKFcGEpLp0xWItHz7LjksERyjS0b-UldsQH4jgr4teW8",
-    "email": "Sincere@april.biz"
+    "_id": 28,
+    "name": "Mutton Bone Meat",
+    "description": "Lamb is from a younger sheep (Less than a year old) and mutton is from an older sheep. In South Asian or Caribbean cuisine, mutton refers to the meat of goats. In India however, we often refer to both sheep and goat meat as mutton.",
+    "unit": "1 kg  ",
+    "price": 1100,
+    "image": "https://i.ibb.co/FgG5bqr/chaldal-premium-beef-bone-in-50-gm-1-kg.webp"
+  },
+  {
+    "_id": 29,
+    "name": "Deshi Chicken Meat",
+    "description": "Deshi Chicken With Skin is delicious, nutritious and can be prepared in a multitude of ways. Chicken consists of high-quality protein, essential vitamins and minerals. Deshi Chicken With Skin is lean meat, which is great for the heart and beneficial for natural weight loss.",
+    "unit": "1 kg  ",
+    "price": 600,
+    "image": "https://i.ibb.co/jyvbX9p/whole-deshi-chicken-skin-off-25-gm-500-gm.webp"
+  },
+  {
+    "_id": 30,
+    "name": "Mutton Peaya Meat",
+    "description": "Paya soup is a delicious nutrient-rich soup, which is commonly consumed in the monsoon and winter seasons. The mutton stew is made with the broth of trotters (legs of lamb) which is loaded with amino acids, calcium, protein and other vital nutrients.",
+    "unit": "1 kg  ",
+    "price": 400,
+    "image": "https://i.ibb.co/hL7zmmc/mutton-paya-10-pcs.webp"
+  },
+  {
+    "_id": 31,
+    "name": "Radhuni Chilli Powder",
+    "description": "Radhuni powdered Chilli is vivid in color, precious in flavor. Best variety of red chilli provides more hotness. Capsaicin, the main flavoring compound for hotness and Capsanthin, the main coloring compound is blended in proper proportion to maintain the real taste of chili",
+    "unit": "100 gm  ",
+    "price": 90,
+    "image": "https://i.ibb.co/vztWZNF/cili.webp"
+  },
+  {
+    "_id": 32,
+    "name": "Marks Milk Powder ",
+    "description": "Origin: Bangladesh Manufacturer: Abul khair and company ,Full cream milk powder.Nutrition: Vitamin A, Vitamin B, Vitamin D, calcium, zinc, protien.",
+    "unit": "500 gm  ",
+    "price": 425,
+    "image": "https://i.ibb.co/JFcSZy4/marks-full-cream-milk-powder-poly-500-gm.webp"
+  },
+  {
+    "_id": 33,
+    "name": "No1. Condensed Milk",
+    "description": "Condensed milk is a popular sweetened dairy product that is thick and sticky in texture. It is made by removing most of the water content from cow's milk and adding sugar, resulting in a concentrated and sweet product. It is commonly used in desserts, confections, and beverages. ",
+    "unit": "400 gm  ",
+    "price": 105,
+    "image": "https://i.ibb.co/5cLX24m/no-1-condensed-milk-400-gm.webp"
+  },
+  {
+    "_id": 34,
+    "name": "Aarong  Milk Powder",
+    "description": "Aarong Dairy Low Fat Milk Powder is the ideal choice for the smart and health-conscious people. It is rich in calcium, protein, vitamins, and minerals. Being 99% fat-free, it has 27% lower calories, 33% more protein and 42% more calcium than Full Cream Milk Powder making it a perfect combination of healthy diets. Make your food taste amazing by using Aarong Dairy Low Fat Milk for cooking.Share and Enjoy!",
+    "unit": "400 gm  ",
+    "price": 390,
+    "image": "https://i.ibb.co/HXjfCd9/aarong-dairy-low-fat-milk-powder-400-gm.webp"
+  },
+  {
+    "_id": 35,
+    "name": "Pran UHT Milk",
+    "description": "UHT Milk is one of the most popular milks to the people who wants to maintain a balanced and healthy life.Pran UHT Milk gives us a proper combination of nutrition and good taste. It is enriched with many essential nutrients like potassium,zinc,carbohydrates,protein etc.If we want to have a long healthy life,we can certainly take this fresh full cream milk ",
+    "unit": "200 ml  ",
+    "price": 28,
+    "image": "https://i.ibb.co/1L7G3wG/pran-uht-milk-200-ml.webp"
   }
 ]

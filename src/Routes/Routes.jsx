@@ -13,6 +13,9 @@ import Coffee from "../pages/Sidebarproducts/Coffee/Coffee";
 import Flour from "../pages/Sidebarproducts/Flour/Flour";
 import Noodles from "../pages/Sidebarproducts/Noodles/Noodles";
 import ToastandBakeryBiscuits from "../pages/Sidebarproducts/Toastandbakerybiscuits/ToastandBakeryBiscuits";
+import Meat from "../pages/Sidebarproducts/Meat/Meat";
+import Spices from "../pages/Sidebarproducts/Spices/Spices";
+import Dairy from "../pages/Sidebarproducts/Dairy/Dairy";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -69,6 +72,18 @@ export const router = createBrowserRouter([
       {
         path: "/toastandBakeryBiscuits",
         element: <ToastandBakeryBiscuits></ToastandBakeryBiscuits>,
+      },
+      {
+        path: "/meat",
+        element: <Meat></Meat>,
+      },
+      {
+        path: "/spices",
+        element: <Spices></Spices>,
+      },
+      {
+        path: "/dairy",
+        element: <Dairy></Dairy>,
       },
     ],
   },
