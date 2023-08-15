@@ -18,8 +18,9 @@
   },
   {
     "_id": 3,
-    "name": "Coca-Cola",
+    "name": "Coca-Cola(Beverage)",
     "unit": "1.25 ltr",
+    
     "price": 75,
     "description": "Coca-Cola, an iconic American beverage brand, is renowned globally for its refreshing soft drinks. Established in the late 1800s, it offers a variety of flavors and options loved by consumers worldwide. Its classic cola, recognized by its unique taste and logo, holds a prominent place in popular culture and is enjoyed in over 200 countries.",
     "image": "https://i.ibb.co/g6r2Q6Z/Coke-Classic-1334x.webp"
@@ -122,7 +123,7 @@
   },
   {
     "_id": 16,
-    "name": "Sprite",
+    "name": "Sprite(Beverage)",
     "description": "Crisp, refreshing and clean-tasting, Sprite is the world’s leading lemon and lime-flavoured soft drink.Ingredients: Carbonated Water, Sugar, Citric Acid, Malic Acid, Acidity Regulator (Sodium Gluconate), Natural Lemon-Lime Flavourings, Sweetener (Steviol Glycosides).",
     "unit": "600ml",
     "price": 60,
@@ -162,11 +163,19 @@
   },
   {
     "_id": 21,
-    "name": "Pepsi Diet ",
+    "name": "Pepsi Diet(Beverage) ",
     "description": "Great taste, crisp and refreshing. Zero calories. 1L / 33oz - Great for sharing with friends or when you want to save some for later!",
     "unit": "1L",
     "price": 70,
     "image": "https://i.ibb.co/SRNsdF0/pepsi-diet-1-ltr.webp"
+  },
+  {
+    "_id": 22,
+    "name": "Seylon Gold Tea",
+    "description": "Seylon Gold Tea has a delightfully light and smooth great taste with a refreshing aroma. Packed with young tea leaves, Seylon Gold Tea is a great way to brighten your day. Our 30 tea bags are packaged in envelopes so you get the same crisp taste and aroma - from the first tea bag and the last. Uplifting when enjoyed hot or refreshing when enjoyed as an iced tea.",
+    "unit": "500 gm",
+    "price": 215,
+    "image": "https://i.ibb.co/Qd6Fm9S/seylon-gold-tea-500-gm.webp"
   },
   {
     "_id": 100,

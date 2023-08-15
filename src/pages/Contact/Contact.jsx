@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div>
       <h1 className="text-center font-bold mt-4 text-xl"> E-Shop.com</h1>
-      <p className="text-center">All of Shwapno, now at your fingertips </p>
+      <p className="text-center">All of E-shop, now at your fingertips </p>
       <div className="flex flex-row mt-6 gap-6  ">
         <div className="w-1/2 ">
           <img

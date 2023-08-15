@@ -6,6 +6,8 @@ import Contact from "../pages/Contact/Contact";
 import Basmati from "../pages/Sidebarproducts/Rice/Basmati/Basmati";
 import Chinigura from "../pages/Sidebarproducts/Rice/Chinigura/Chinigura";
 import Oil from "../pages/Sidebarproducts/Oil/Oil";
+import Tea from "../pages/Sidebarproducts/Tea/Tea";
+import Softdrinks from "../pages/Sidebarproducts/Softdrinks/Softdrinks";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -34,6 +36,14 @@ export const router = createBrowserRouter([
       {
         path: "/oil",
         element: <Oil></Oil>,
+      },
+      {
+        path: "/tea",
+        element: <Tea></Tea>,
+      },
+      {
+        path: "/softdrinks",
+        element: <Softdrinks></Softdrinks>,
       },
     ],
   },
