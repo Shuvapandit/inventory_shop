@@ -1,9 +1,18 @@
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 import { Link } from "react-router-dom";
+import "./SideNav.css";
+import { useState } from "react";
 const SideNav = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="fixed">
-      <Sidebar>
+    <div
+      className={`h-screen fixed flex overflow-hidden ${
+        isOpen ? "overflow-y-auto" : ""
+      }`}
+    >
+      <Sidebar className="sidebar">
+        {" "}
+        {/* Add the "sidebar" class */}
         <Menu>
           <SubMenu label="Rice">
             <Link to={`/basmati`}>

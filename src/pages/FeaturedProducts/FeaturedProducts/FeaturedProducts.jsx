@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { useShoppingBag } from "../../Shared/ShoppingBagContext/ShoppingBagContext";
 const FeaturedProducts = ({ feturedproduct }) => {
   const { name, image, unit, description, price, _id } = feturedproduct;
@@ -10,6 +12,11 @@ const FeaturedProducts = ({ feturedproduct }) => {
   const { addToBag } = useShoppingBag();
   const closeModal = () => {
     setIsModalOpen(false);
+  };
+  const showToastMessage = () => {
+    toast.info("This service is under development.", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
   };
   return (
     <div className="mb-12">
@@ -66,7 +73,7 @@ const FeaturedProducts = ({ feturedproduct }) => {
                 </button>
               </div>
               <div>
-                <button className="">
+                <button className="" onClick={showToastMessage}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -82,6 +89,7 @@ const FeaturedProducts = ({ feturedproduct }) => {
                     />
                   </svg>
                 </button>
+                <ToastContainer />
               </div>
             </div>
           </div>

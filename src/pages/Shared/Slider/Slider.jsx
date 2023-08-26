@@ -1,48 +1,69 @@
+import React, { useState, useEffect } from "react";
+import img1 from "../../../assets/images/slidersimg/img1.jpg";
+import img2 from "../../../assets/images/slidersimg/img2.jpg";
+import img3 from "../../../assets/images/slidersimg/img3.jpg";
+import img4 from "../../../assets/images/slidersimg/img4.jpg";
+import img5 from "../../../assets/images/slidersimg/img5.jpg";
+import img6 from "../../../assets/images/slidersimg/img6.jpg";
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-// import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import img1 from '../../../assets/images/slidersimg/img1.jpg'
-import img2 from '../../../assets/images/slidersimg/img2.jpg'
-import img3 from '../../../assets/images/slidersimg/img3.jpg'
-import img4 from '../../../assets/images/slidersimg/img4.jpg'
-import img5 from '../../../assets/images/slidersimg/img5.jpg'
-import img6 from '../../../assets/images/slidersimg/img6.jpg'
-const Slider = () => { 
+const Slider = () => {
+  const images = [img1, img2, img3, img4, img5, img6];
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const goToPrevious = () => {
+    setActiveIndex((activeIndex - 1 + images.length) % images.length);
+  };
+
+  const goToNext = () => {
+    setActiveIndex((activeIndex + 1) % images.length);
+  };
+
+  useEffect(() => {
+    const autoplayInterval = setInterval(goToNext, 2500);
+
+    return () => {
+      clearInterval(autoplayInterval);
+    };
+  }, [activeIndex]);
+
   return (
-    <>
-    
- <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide><img src={img1} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img2} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img3} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img4} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img5} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img6} style={{ width: '100%', height: '400px' }} alt="Slide 1" /></SwiperSlide>
-        
-      </Swiper>
-   
-      
-    </>
-  )
-}
+    <div>
+      <div className="carousel w-full h-64 ">
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className={`carousel-item relative w-full h-64 ${
+              index === activeIndex ? "block" : "hidden"
+            }`}
+          >
+            <img
+              src={image}
+              className="w-full h-64 "
+              alt={`Slide ${index + 1}`}
+            />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a
+                href={`#slide${
+                  ((index - 1 + images.length) % images.length) + 1
+                }`}
+                className="btn btn-link"
+                onClick={goToPrevious}
+              >
+                ❮
+              </a>
+              <a
+                href={`#slide${((index + 1) % images.length) + 1}`}
+                className="btn btn-link "
+                onClick={goToNext}
+              >
+                ❯
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
-export default Slider
+export default Slider;

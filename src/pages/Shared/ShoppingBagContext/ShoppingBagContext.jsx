@@ -1,14 +1,19 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
+
 const ShoppingBagContext = createContext();
+
 export const useShoppingBag = () => useContext(ShoppingBagContext);
+
 export const ShoppingBagProvider = ({ children }) => {
   const [bagCount, setBagCount] = useState(0);
   const [bagItems, setBagItems] = useState([]);
+
   useEffect(() => {
     const storedBagItems = JSON.parse(localStorage.getItem("bagItems")) || [];
     setBagItems(storedBagItems);
     setBagCount(storedBagItems.length);
   }, []);
+
   const addToBag = (productId) => {
     const updatedBagItems = [...bagItems];
 
@@ -25,7 +30,7 @@ export const ShoppingBagProvider = ({ children }) => {
   };
 
   return (
-    <ShoppingBagContext.Provider value={{ bagCount, addToBag }}>
+    <ShoppingBagContext.Provider value={{ bagCount, bagItems, addToBag }}>
       {children}
     </ShoppingBagContext.Provider>
   );

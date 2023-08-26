@@ -13,12 +13,13 @@ const Main = () => {
         </div>
         <div className="lg:w-4/5 ">
           <Outlet></Outlet>
-          <div className=" ml-[-20px]">
+          <div className=" ml-[-20px] ">
             <Footer />
           </div>
         </div>
       </div>
     </div>
+    
   );
 };
 export default Main;

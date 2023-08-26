@@ -63,9 +63,9 @@ const About = () => {
         <h1 className="text-center mt-6 mb-5 font-bold text-xl">
           Achievements & Recognition
         </h1>
-        <div className='flex flex-row gap-12 items-center justify-center  mt-4 "'>
+        <div className='lg:flex lg:flex-row gap-12 items-center justify-center  mt-4 "'>
           <div>
-            <div className="card w-96 bg-base-100 ">
+            <div className="card lg:w-96 sm:w-full md:w-full bg-base-100 ">
               <figure>
                 <img
                   src="https://i.ibb.co/hF55jCY/global-GAPIcon.webp"
@@ -78,7 +78,7 @@ const About = () => {
             </div>
           </div>
           <div>
-            <div className="card w-96 bg-base-100 ">
+            <div className="card lg:w-96 sm:w-full md:w-full bg-base-100 ">
               <figure>
                 <img
                   src="https://i.ibb.co/BwsTgDv/Best-Retail-Icon.webp"

@@ -33,7 +33,7 @@ const Softdrinks = () => {
         <div className=" ml-[-20px]">
           <img
             src="https://i.ibb.co/6DSpxG3/Coca-Cola.jpg"
-            className="w-full h-56"
+            className="w-full h-56  "
           />
         </div>
         <h2 className="text-lg mt-3 mb-5 font-semibold "> Soft Drinks </h2>
