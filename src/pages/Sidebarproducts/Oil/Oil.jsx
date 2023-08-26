@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useShoppingBag } from "../../Shared/ShoppingBagContext/ShoppingBagContext";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Oil = () => {
   const [products, setProducts] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -28,6 +30,11 @@ const Oil = () => {
     setIsModalOpen(false);
   };
   const { addToBag } = useShoppingBag();
+  const showToastMessage = () => {
+    toast.info("This service is under development.", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
+  };
   return (
     <div>
       <div className="mb-12">
@@ -98,7 +105,7 @@ const Oil = () => {
                       </button>
                     </div>
                     <div>
-                      <button className="">
+                      <button className="" onClick={showToastMessage}>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -114,6 +121,7 @@ const Oil = () => {
                           />
                         </svg>
                       </button>
+                      <ToastContainer />
                     </div>
                   </div>
                 </div>

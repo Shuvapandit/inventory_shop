@@ -96,8 +96,8 @@ const FeaturedProducts = ({ feturedproduct }) => {
         </div>
       </div>
       {isModalOpen && (
-        <dialog id="my_modal_3" className="modal ml-36" open>
-          <form method="dialog" className="modal-box w-96 h-11/12">
+        <dialog id="my_modal_3" className="modal lg:ml-36" open>
+          <form method="dialog" className="modal-box lg:w-96 sm:w-32 sm:h-72 lg:h-11/12">
             <button
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
               onClick={closeModal}
