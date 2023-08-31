@@ -9,11 +9,11 @@ const FeaturedDisplayProducts = () => {
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
   return (
-    <div className="">
+    <div className="ml-5 ">
       <h1 className="text-lg mt-3 mb-2 font-semibold lg:text-left sm:text-center ">
         Featured Products
       </h1>
-      <div className="grid lg:grid-cols-4  md:grid-cols-3 sm:grid-cols-2 gap-y-3 gap-x-2 ">
+      <div className="grid lg:grid-cols-4  md:grid-cols-3 sm:grid-cols-1 gap-y-3 gap-x-2 ">
         {Feturedproducts.map((feturedproduct) => (
           <FeaturedProducts
             key={feturedproduct._id}

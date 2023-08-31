@@ -4,7 +4,7 @@ import FeaturedDisplayProducts from "../FeaturedProducts/FeaturedDipalyProducts/
 const Home = () => {
   return (
     <div className="">
-      <div className=" ml-[-20px]">
+      <div className=" lg:ml-[-20px]">
         <Slider />
       </div>
       <FeaturedDisplayProducts />

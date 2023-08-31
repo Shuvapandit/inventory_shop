@@ -37,9 +37,9 @@ const Basmati = () => {
     });
   };
   return (
-    <div className="mb-12">
+    <div className="mb-12 ">
       <h2 className="text-lg mt-3 mb-5 font-semibold "> Basmati Rice </h2>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 gap-4 mr-3 ml-3">
         {basmatirice.map((product) => (
           <div
             key={product._id}
@@ -53,7 +53,7 @@ const Basmati = () => {
               <p className="font-bold">Price: ৳ {product.price}</p>
               <p className="font-bold">{product.unit}</p>
               <div className="card-actions justify-center">
-                <div className="flex flex-row gap-12">
+                <div className="flex flex-row lg:gap-12 sm:gap-9">
                   <div>
                     <button className="" onClick={() => addToBag(product._id)}>
                       <svg
@@ -121,7 +121,7 @@ const Basmati = () => {
         ))}
       </div>
       {isModalOpen && selectedProduct && (
-        <dialog id="my_modal_3" className="modal ml-36" open>
+        <dialog id="my_modal_3" className="modal lg:ml-36 sm:ml-1" open>
           <form method="dialog" className="modal-box w-96 h-11/12">
             <button
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"

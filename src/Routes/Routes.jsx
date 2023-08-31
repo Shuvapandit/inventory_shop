@@ -16,8 +16,9 @@ import ToastandBakeryBiscuits from "../pages/Sidebarproducts/Toastandbakerybiscu
 import Meat from "../pages/Sidebarproducts/Meat/Meat";
 import Spices from "../pages/Sidebarproducts/Spices/Spices";
 import Dairy from "../pages/Sidebarproducts/Dairy/Dairy";
-import Login from "../pages/Login/Login";
 import Bag from "../pages/Shared/Bag/Bag";
+import Login from "../pages/Shared/Login/Login";
+import Signup from "../pages/Shared/Signup/Signup";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -89,12 +90,17 @@ export const router = createBrowserRouter([
       },
       {
         path: "/login",
-        element: <Login></Login>
+        element:<Login></Login> 
+      },
+      {
+        path: "/signup",
+        element:<Signup></Signup>
       },
       {
         path: "/bag",
         element: <Bag></Bag>
       },
+     
      
     ],
   },

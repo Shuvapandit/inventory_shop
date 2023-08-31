@@ -19,7 +19,7 @@ const FeaturedProducts = ({ feturedproduct }) => {
     });
   };
   return (
-    <div className="mb-12">
+    <div className="mb-12 ">
       <div className="card card-compact w-60 bg-base-100 shadow-xl">
         <figure>
           <img src={image} className="h-52" alt={name} />
@@ -96,8 +96,8 @@ const FeaturedProducts = ({ feturedproduct }) => {
         </div>
       </div>
       {isModalOpen && (
-        <dialog id="my_modal_3" className="modal lg:ml-36" open>
-          <form method="dialog" className="modal-box lg:w-96 sm:w-32 sm:h-72 lg:h-11/12">
+        <dialog id="my_modal_3" className="modal lg:ml-36 sm:ml-1 md:ml-2 " open>
+          <form method="dialog" className="modal-box lg:w-96 sm:w-min   h-11/12">
             <button
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
               onClick={closeModal}

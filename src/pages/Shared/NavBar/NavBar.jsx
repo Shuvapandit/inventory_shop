@@ -56,7 +56,8 @@ const NavBar = ({ addToBag }) => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navOptions}</ul>
+         {/*   <ul className="menu menu-horizontal  px-1">{navOptions}</ul>  */}
+        <div className="px-1 flex flex-row list-none gap-4">{navOptions}</div> 
         </div>
         <div className="navbar-end mr-2">
           {/*  <input type="text" placeholder="Search for products (e.g. milk,juice,fish)" className="input input-bordered input-sm w-full max-w-xs text-black" /> */}
@@ -86,7 +87,7 @@ const NavBar = ({ addToBag }) => {
                 </span>
               </div>
             </label>
-          </Link>
+            </Link>
           <Link to={`/login`}>
             <a className="btn btn-ghost btn-circle">SignIn</a>
           </Link>

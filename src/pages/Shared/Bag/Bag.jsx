@@ -1,21 +1,16 @@
-import React from 'react';
-import { useShoppingBag } from '../ShoppingBagContext/ShoppingBagContext';
+
+import { useContext } from 'react';
+import underconsimg from '../../../assets/images/bagimg/undercons.jpg'
+import { UsersauthContext } from '../Userscontext/UsersContext';
 
 const Bag = () => {
-  const { bagCount, bagItems } = useShoppingBag();
-  
+ const {user} = useContext(UsersauthContext);
+ console.log(user);
 
   return (
     <div>
-      <p>Your Total Products: {bagCount}</p>
-      <ul>
-        {bagItems.map(item => (
-          <li key={item.id}>
-            <p>Name: {item.name}</p>
-            <p>Price: {item.price}</p>
-          </li>
-        ))}
-      </ul>
+    <img src ={underconsimg}/>
+   
     </div>
   );
 }
