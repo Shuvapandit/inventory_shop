@@ -1,8 +1,21 @@
 import { Outlet, Link } from "react-router-dom";
 import { useShoppingBag } from "../ShoppingBagContext/ShoppingBagContext";
 import { Menu, MenuItem, SubMenu } from "react-pro-sidebar";
+import { useContext } from "react";
+import { UsersauthContext } from "../Userscontext/UsersContext";
 const NavBar = ({ addToBag }) => {
   const { bagCount, bagItems } = useShoppingBag();
+  const { user, logOut } = useContext(UsersauthContext);
+  const handleSignOut = () => {
+    logOut()
+      .then((result) => {
+        const loogedUser = result.user;
+        console.log(loogedUser);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
   const navOptions = (
     <>
       <Link to={`/`}>
@@ -56,8 +69,8 @@ const NavBar = ({ addToBag }) => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-         {/*   <ul className="menu menu-horizontal  px-1">{navOptions}</ul>  */}
-        <div className="px-1 flex flex-row list-none gap-4">{navOptions}</div> 
+          {/*   <ul className="menu menu-horizontal  px-1">{navOptions}</ul>  */}
+          <div className="px-1 flex flex-row list-none gap-4">{navOptions}</div>
         </div>
         <div className="navbar-end mr-2">
           {/*  <input type="text" placeholder="Search for products (e.g. milk,juice,fish)" className="input input-bordered input-sm w-full max-w-xs text-black" /> */}
@@ -87,10 +100,16 @@ const NavBar = ({ addToBag }) => {
                 </span>
               </div>
             </label>
-            </Link>
-          <Link to={`/login`}>
-            <a className="btn btn-ghost btn-circle">SignIn</a>
           </Link>
+          {user ? (
+            <a onClick={handleSignOut} className="btn btn-ghost btn-circle">
+              LogOut
+            </a>
+          ) : (
+            <Link to={`/login`}>
+              <a className="btn btn-ghost btn-circle">LogIn</a>
+            </Link>
+          )}
           {/*  drawer */}
           <div className="lg:hidden">
             <div className="drawer ">

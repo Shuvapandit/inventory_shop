@@ -6,7 +6,19 @@ import { useContext } from "react";
 const PrivateRoutes = ({ children }) => {
   const { user, loading } = useContext(UsersauthContext);
   if (loading) {
-    return <progress className="progress w-56 ml-1/2"></progress>;
+    return (
+        <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "50vh", 
+        }}
+      >
+    <span className="loading loading-spinner  text-sky-600 loading-lg" ></span>
+        </div>
+
+    );
   }
   if (user) {
     return children;

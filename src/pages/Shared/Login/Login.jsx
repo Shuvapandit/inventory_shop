@@ -1,29 +1,39 @@
 import React from "react";
+import google from "../../../assets/images/authimg/google.png";
 import loginimg from "../../../assets/images/loginimg/login.gif";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { UsersauthContext } from "../Userscontext/UsersContext";
 
 const Login = () => {
-  const {signIn} = useContext(UsersauthContext);
+  const { signIn, signinwithGoogle } = useContext(UsersauthContext);
   const loginhandle = (event) => {
     event.preventDefault();
     const form = event.target;
     const email = form.email.value;
     const password = form.password.value;
-    console.log(email, password);
-    signIn(email,password)
-    .then(result=>{
-      const loogedUser=result.user;
-      /* console.log(loogedUser); */
-      form.reset();
-
-    })
-    .catch(error=>{
-      console.log(error);
-
-    })
+    /* console.log(email, password); */
+    signIn(email, password)
+      .then((result) => {
+        const loogedUser = result.user;
+        /* console.log(loogedUser); */
+        form.reset();
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
+  const hloginwithGoogle = () => {
+    signinwithGoogle()
+      .then((result) => {
+        const loogedUser = result.user;
+        /*    console.log(loogedUser); */
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
   return (
     <div className="flex flex-row">
       <div className="w-3/6">
@@ -81,13 +91,20 @@ const Login = () => {
                 </button>
               </div>
             </form>
-          
+
             <div className="mt-6  text-sm ">
-          <Link  to="/signup"> 
-          <p className=" link link-hover btn-link ">
-          New to E-shop?
-                  </p>
-            </Link>
+              <Link to="/signup">
+                <p className=" link link-hover btn-link ">New to E-shop?</p>
+              </Link>
+            </div>
+            <div className="mt-3 ">
+              <button
+                onClick={hloginwithGoogle}
+                className="btn p-2 w-full justify-center  "
+              >
+                <img src={google} width={"20px"} height={"20px"} />
+                Login With Google
+              </button>
             </div>
           </div>
         </div>
