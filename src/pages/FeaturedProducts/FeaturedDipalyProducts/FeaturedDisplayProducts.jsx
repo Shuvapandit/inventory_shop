@@ -9,7 +9,7 @@ const FeaturedDisplayProducts = () => {
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
   return (
-    <div className="ml-5 ">
+    <div className="flex flex-col items-center justify-center ">
       <h1 className="text-lg mt-3 mb-2 font-semibold lg:text-left sm:text-center ">
         Featured Products
       </h1>

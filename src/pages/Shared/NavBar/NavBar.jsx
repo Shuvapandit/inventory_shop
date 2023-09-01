@@ -3,22 +3,21 @@ import { useShoppingBag } from "../ShoppingBagContext/ShoppingBagContext";
 import { Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 import { useContext } from "react";
 import { UsersauthContext } from "../Userscontext/UsersContext";
-import { toast } from 'react-toastify';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const NavBar = () => {
   const { bagCount } = useShoppingBag();
   const { user, logOut } = useContext(UsersauthContext);
   const handleLogOut = () => {
     logOut()
-    .then(() => {
-      // Show a success toast message
-      toast.success('Logout successful');
-    }) 
-    
+      .then(() => {
+        // Show a success toast message
+        toast.success("Logout successful");
+      })
+
       .catch((error) => {
-        toast.error('Logout unsuccessful. Please try again.');
+        toast.error("Logout unsuccessful. Please try again.");
         console.log(error);
       });
   };
@@ -81,11 +80,7 @@ const NavBar = () => {
         <div className="navbar-end mr-2">
           {/*  <input type="text" placeholder="Search for products (e.g. milk,juice,fish)" className="input input-bordered input-sm w-full max-w-xs text-black" /> */}
 
-          <Link
-            to="/bag"
-            
-          > 
-       
+          <Link to="/bag">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
               <div className="indicator">
                 <svg
@@ -108,7 +103,7 @@ const NavBar = () => {
               </div>
             </label>
           </Link>
-          <ToastContainer />
+
           {user ? (
             <a onClick={handleLogOut} className="btn btn-ghost btn-circle">
               LogOut

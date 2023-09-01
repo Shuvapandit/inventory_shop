@@ -2,6 +2,8 @@
 
 ## Live link of our Project:
 
+https://eshopbangladesh.netlify.app/
+
 # About our Project
 
 ## Project Features and Functionality.
@@ -19,3 +21,4 @@
 - we use react-sidebar .
 - We use React-Toastify to show notifications.
 - Use firebase for login and signup auth.
+- Add Map using google Maps Embed API.

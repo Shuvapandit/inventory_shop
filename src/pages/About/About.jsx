@@ -4,7 +4,7 @@ const About = () => {
       <div className=" ml-[-20px]">
         <img
           src="https://i.ibb.co/pKjspyv/about-banner1.jpg"
-          className=" w-full" 
+          className=" w-full"
         />
       </div>
       <h1 className="text-center mt-4 font-bold text-xl">

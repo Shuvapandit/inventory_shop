@@ -40,10 +40,7 @@ const Tea = () => {
     <div>
       <div className="mb-12">
         <div className=" ml-[-20px]">
-          <img
-            src="https://i.ibb.co/7456268/asa.png"
-            className="w-full h-56"
-          />
+          <img src="https://i.ibb.co/7456268/asa.png" className="w-full h-56" />
         </div>
         <h2 className="text-lg mt-3 mb-5 font-semibold "> Tea </h2>
         <div className="grid grid-cols-3 gap-4 ">
@@ -107,7 +104,7 @@ const Tea = () => {
                     </div>
                     <div>
                       <button className="" onClick={showToastMessage}>
-                      <ToastContainer />
+                        <ToastContainer />
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"

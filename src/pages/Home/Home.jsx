@@ -1,6 +1,9 @@
 import React from "react";
 import Slider from "../Shared/Slider/Slider";
 import FeaturedDisplayProducts from "../FeaturedProducts/FeaturedDipalyProducts/FeaturedDisplayProducts";
+
+import Faq from "./FAQ/Faq";
+import PopularBrands from "./PopularBrands/PopularBrands";
 const Home = () => {
   return (
     <div className="">
@@ -8,6 +11,11 @@ const Home = () => {
         <Slider />
       </div>
       <FeaturedDisplayProducts />
+      <PopularBrands/>
+      <div className=" justify-center">
+      <Faq/>
+      </div>
+     
     </div>
   );
 };

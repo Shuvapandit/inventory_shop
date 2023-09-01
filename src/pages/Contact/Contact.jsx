@@ -1,3 +1,5 @@
+import Map from "./Map/Map";
+
 const Contact = () => {
   return (
     <div>
@@ -5,7 +7,7 @@ const Contact = () => {
       <p className="text-center">All of E-shop, now at your fingertips </p>
       <div className="lg:flex lg:flex-row mt-6 gap-6  ">
         <div className="lg:w-1/2 ">
-          <img 
+          <img
             src="https://i.ibb.co/ZYffFTC/cvd.png"
             width="500"
             height="300"
@@ -55,6 +57,9 @@ const Contact = () => {
           <strong>Head Quarter:</strong>Level 8, Novo Tower, 270 Mirpur2 I/A,
           Dhaka 1208, Bangladesh.
         </p>
+      </div>
+      <div className="ml-[-20px]">
+        <Map></Map>
       </div>
     </div>
   );
