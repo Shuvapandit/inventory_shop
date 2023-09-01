@@ -8,11 +8,11 @@ import UsersContext from "./pages/Shared/Userscontext/UsersContext";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <UsersContext>
-    <ShoppingBagProvider>
-      <div className="font-sans">
-        <RouterProvider router={router} />
-      </div>
-    </ShoppingBagProvider>
+      <ShoppingBagProvider>
+        <div className="font-sans">
+          <RouterProvider router={router} />
+        </div>
+      </ShoppingBagProvider>
     </UsersContext>
   </React.StrictMode>
 );

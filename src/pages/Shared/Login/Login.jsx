@@ -4,7 +4,9 @@ import loginimg from "../../../assets/images/loginimg/login.gif";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { UsersauthContext } from "../Userscontext/UsersContext";
-
+import { toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Login = () => {
   const { signIn, signinwithGoogle } = useContext(UsersauthContext);
   const loginhandle = (event) => {
@@ -16,35 +18,52 @@ const Login = () => {
     signIn(email, password)
       .then((result) => {
         const loogedUser = result.user;
-        /* console.log(loogedUser); */
+        toast.success("Login successful");
         form.reset();
       })
       .catch((error) => {
-        console.log(error);
+        if (
+          error.code === "auth/invalid-email" ||
+          error.code === "auth/user-not-found"
+        ) {
+          // Show an error toast message for wrong email
+          toast.error(
+            "Wrong email or user not found. Please check your email."
+          );
+        } else if (error.code === "auth/wrong-password") {
+          // Show an error toast message for wrong password
+          toast.error("Wrong password. Please check your password.");
+        } else {
+          // Show a generic error message for other errors
+          toast.error("An error occurred. Please try again later.");
+        }
+        /* console.log(error); */
       });
   };
   const hloginwithGoogle = () => {
     signinwithGoogle()
       .then((result) => {
         const loogedUser = result.user;
+        toast.success("Login With Google Successful");
         /*    console.log(loogedUser); */
       })
       .catch((error) => {
-        console.log(error);
+        toast.error("Google login failed. Please try again.");
+        /* console.log(error); */
       });
   };
-
   return (
-    <div className="flex flex-row">
-      <div className="w-3/6">
-        <img className="h-full" src={loginimg} alt="Login" />
+    <div className="lg:flex lg:flex-row">
+      <div className="lg:w-3/6">
+        <img className="h-full " src={loginimg} alt="Login" />
       </div>
-      <div className="w-3/6">
+      <div className="lg:w-3/6 sm:w-full">
         <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
             <h2 className="mt-1 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
               LogIn
             </h2>
+            <ToastContainer />
           </div>
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
             <form
@@ -75,11 +94,6 @@ const Login = () => {
                   placeholder="password"
                   className="input input-bordered"
                 />
-                <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">
-                    Forgot password?
-                  </a>
-                </label>
               </div>
 
               <div>
@@ -112,5 +126,4 @@ const Login = () => {
     </div>
   );
 };
-
 export default Login;

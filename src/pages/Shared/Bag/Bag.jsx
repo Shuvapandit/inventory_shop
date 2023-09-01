@@ -1,21 +1,16 @@
-
-
-import { useContext } from 'react';
-import underconsimg from '../../../assets/images/bagimg/undercons.jpg'
-import { UsersauthContext } from '../Userscontext/UsersContext';
-
-
+import { useContext } from "react";
+import underconsimg from "../../../assets/images/bagimg/undercons.jpg";
+import { UsersauthContext } from "../Userscontext/UsersContext";
 
 const Bag = () => {
- const {user} = useContext(UsersauthContext);
- console.log(user); 
+  const { user } = useContext(UsersauthContext);
+  console.log(user);
 
   return (
     <div>
-    <img src ={underconsimg}/>
-   
+      <img src={underconsimg} />
     </div>
   );
-}
+};
 
 export default Bag;
