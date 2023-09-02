@@ -5,7 +5,6 @@ import { useShoppingBag } from "../../Shared/ShoppingBagContext/ShoppingBagConte
 const FeaturedProducts = ({ feturedproduct }) => {
   const { name, image, unit, description, price, _id } = feturedproduct;
   const [isModalOpen, setIsModalOpen] = useState(false);
-
   const openModal = () => {
     setIsModalOpen(true);
   };
@@ -96,8 +95,15 @@ const FeaturedProducts = ({ feturedproduct }) => {
         </div>
       </div>
       {isModalOpen && (
-        <dialog id="my_modal_3" className="modal lg:ml-36 sm:ml-1 md:ml-2 " open>
-          <form method="dialog" className="modal-box lg:w-96 sm:w-min   h-11/12">
+        <dialog
+          id="my_modal_3"
+          className="modal lg:ml-36 sm:ml-1 md:ml-2 "
+          open
+        >
+          <form
+            method="dialog"
+            className="modal-box lg:w-96 sm:w-min   h-11/12"
+          >
             <button
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
               onClick={closeModal}
@@ -110,7 +116,6 @@ const FeaturedProducts = ({ feturedproduct }) => {
             <h2 className="text-base font-semibold">{name}</h2>
             <p className="font-bold">Price: ৳ {price}</p>
             <p className="font-bold">{unit}</p>
-
             <p className="">
               <strong>Description:</strong>
               {description}

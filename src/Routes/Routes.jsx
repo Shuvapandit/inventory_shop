@@ -12,7 +12,7 @@ import Juice from "../pages/Sidebarproducts/Juice/Juice";
 import Coffee from "../pages/Sidebarproducts/Coffee/Coffee";
 import Flour from "../pages/Sidebarproducts/Flour/Flour";
 import Noodles from "../pages/Sidebarproducts/Noodles/Noodles";
-import ToastandBakeryBiscuits from "../pages/Sidebarproducts/Toastandbakerybiscuits/ToastandBakeryBiscuits";
+
 import Meat from "../pages/Sidebarproducts/Meat/Meat";
 import Spices from "../pages/Sidebarproducts/Spices/Spices";
 import Dairy from "../pages/Sidebarproducts/Dairy/Dairy";
@@ -20,6 +20,7 @@ import Login from "../pages/Shared/Login/Login";
 import Signup from "../pages/Shared/Signup/Signup";
 import Bag from "../pages/Shared/Bag/Bag";
 import PrivateRoutes from "../pages/Shared/PrivateRoutes/PrivateRoutes";
+import ToastandBakeryBiscuits from "../pages/Sidebarproducts/Toastandbakerybiscuits/Toastandbakerybiscuits";
 export const router = createBrowserRouter([
   {
     path: "/",

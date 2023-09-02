@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { useShoppingBag } from "../../../Shared/ShoppingBagContext/ShoppingBagContext";
 const Chinigura = () => {
   const [products, setProducts] = useState([]);
@@ -30,11 +30,11 @@ const Chinigura = () => {
   };
   const { addToBag } = useShoppingBag();
   const showToastMessage = () => {
-    toast.info('This service is under development.', {
-      position: toast.POSITION.TOP_RIGHT
-  });
-};
-  
+    toast.info("This service is under development.", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
+  };
+
   return (
     <div className="mb-12">
       <div className=" ml-[-20px]">
@@ -57,7 +57,7 @@ const Chinigura = () => {
               <div className="card-actions justify-center">
                 <div className="flex flex-row lg:gap-12 sm:gap-9">
                   <div>
-                    <button className=""  onClick={() => addToBag(product._id)}>
+                    <button className="" onClick={() => addToBag(product._id)}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -114,7 +114,7 @@ const Chinigura = () => {
                         />
                       </svg>
                     </button>
-                    <ToastContainer/>
+                    <ToastContainer />
                   </div>
                 </div>
               </div>

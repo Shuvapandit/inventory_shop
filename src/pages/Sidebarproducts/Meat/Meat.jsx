@@ -43,9 +43,7 @@ const Meat = () => {
             className="w-full h-52"
           />
         </div>
-        <h2 className="text-lg mt-3 mb-5 font-semibold  ">
-         Meat
-        </h2>
+        <h2 className="text-lg mt-3 mb-5 font-semibold  ">Meat</h2>
         <div className="grid grid-cols-3 gap-4 mr-4 ml-4">
           {meat.map((product) => (
             <div
@@ -107,7 +105,7 @@ const Meat = () => {
                     </div>
                     <div>
                       <button className="" onClick={showToastMessage}>
-                      <ToastContainer />
+                        <ToastContainer />
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"

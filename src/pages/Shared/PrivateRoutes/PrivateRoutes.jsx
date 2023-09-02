@@ -2,7 +2,6 @@ import React from "react";
 import { UsersauthContext } from "../Userscontext/UsersContext";
 import { Navigate } from "react-router-dom";
 import { useContext } from "react";
-
 const PrivateRoutes = ({ children }) => {
   const { user, loading } = useContext(UsersauthContext);
   if (loading) {
@@ -24,5 +23,4 @@ const PrivateRoutes = ({ children }) => {
   }
   return <Navigate to="/login" replace={true}></Navigate>;
 };
-
 export default PrivateRoutes;

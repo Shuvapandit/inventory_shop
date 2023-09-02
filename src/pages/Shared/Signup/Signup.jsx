@@ -6,7 +6,6 @@ import { UsersauthContext } from "../Userscontext/UsersContext";
 import { toast } from "react-toastify";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
 const Signup = () => {
   const { user, createUser } = useContext(UsersauthContext);
   /* console.log(createUser); */

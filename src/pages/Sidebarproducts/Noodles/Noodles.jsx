@@ -38,10 +38,7 @@ const Noodles = () => {
     <div>
       <div className="mb-12">
         <div className=" ml-[-20px]">
-          <img
-            src="https://i.ibb.co/yhQ64Zy/mgi.jpg"
-            className="w-full h-56"
-          />
+          <img src="https://i.ibb.co/yhQ64Zy/mgi.jpg" className="w-full h-56" />
         </div>
         <h2 className="text-lg mt-3 mb-5 font-semibold  "> Noodles </h2>
         <div className="grid grid-cols-3 gap-4 mr-4 ml-4">
@@ -104,8 +101,8 @@ const Noodles = () => {
                       </button>
                     </div>
                     <div>
-                      <button className=""  onClick={showToastMessage}>
-                      <ToastContainer />
+                      <button className="" onClick={showToastMessage}>
+                        <ToastContainer />
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"

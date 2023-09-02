@@ -49,11 +49,11 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-       <footer className="footer footer-center p-4 bg-base-200 text-base-content mb-3">
+      <footer className="footer footer-center p-4 bg-base-200 text-base-content mb-3">
         <div>
-          <p>Copyright © 2023 - All right reserved by Shuva Chakraborty</p> 
+          <p>Copyright © 2023 - All right reserved by Shuva Chakraborty</p>
         </div>
-      </footer> 
+      </footer>
     </div>
   );
 };

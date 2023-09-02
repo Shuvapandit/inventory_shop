@@ -5,7 +5,6 @@ import { useContext } from "react";
 import { UsersauthContext } from "../Userscontext/UsersContext";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
 const NavBar = () => {
   const { bagCount } = useShoppingBag();
   const { user, logOut } = useContext(UsersauthContext);
@@ -113,7 +112,6 @@ const NavBar = () => {
               <a className="btn btn-ghost btn-circle">LogIn</a>
             </Link>
           )}
-          {/*  drawer */}
           <div className="lg:hidden">
             <div className="drawer ">
               <input
@@ -122,10 +120,6 @@ const NavBar = () => {
                 className="drawer-toggle"
               />
               <div className="drawer-content">
-                {/* Page content here */}
-                {/* <label htmlFor="my-drawer-4" className="drawer-button btn btn-primary">Open drawer</label> */}
-                {/*  icon start */}
-
                 <label
                   htmlFor="my-drawer-4"
                   className="btn btn-square btn-ghost drawer-button"
